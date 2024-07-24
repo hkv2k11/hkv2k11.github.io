@@ -61,7 +61,7 @@
     }
 }
 
-name {
+.HovaTen {
     font-family: Braah One;
     color: #eb00b8;
     padding: 0;
@@ -69,7 +69,7 @@ name {
     line-height: 1.8;
     margin-bottom: 0;
     margin-top: -3px;
-    text-shadow: 3px 0 8px #3f0000
+    text-shadow: 3px 0 8px #ff0000
 }
 .TieuSu__ {
     font-family: Philosopher;
