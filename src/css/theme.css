@@ -2510,7 +2510,7 @@ code.hljs {
 }
 /* dsc */
 .discord {
-    background-color: #7289da; /* Màu gốc của Discord */
+    background-color: #000000; /* Màu gốc của Discord */
     color: white; /* Màu chữ gốc */
     border: none;
     padding: 10px 20px;
@@ -2520,14 +2520,14 @@ code.hljs {
 }
 
 .discord:hover {
-    background-color: white; /* Màu khi hover */
-    color: #7289da; /* Màu chữ khi hover */
-    border: 1px solid #7289da; /* Viền khi hover */
+    background-color: rgb(0, 0, 0); /* Màu khi hover */
+    color: #000000; /* Màu chữ khi hover */
+    border: 1px solid #000000; /* Viền khi hover */
 }
 
 .discord:active {
-    background-color: #5562a1; /* Màu khi button được nhấn */
-    color: white; /* Màu chữ khi button được nhấn */
+    background-color: #000000; /* Màu khi button được nhấn */
+    color: rgb(0, 0, 0); /* Màu chữ khi button được nhấn */
 }
 /* viền ngoài */
 .avatar-container {
