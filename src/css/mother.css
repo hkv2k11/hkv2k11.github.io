@@ -61,15 +61,15 @@
     }
 }
 
-.KhacViet_Name {
+name {
     font-family: Braah One;
-    color: #fff;
+    color: #eb00b8;
     padding: 0;
     font-size: 20px;
     line-height: 1.8;
     margin-bottom: 0;
     margin-top: -3px;
-    text-shadow: 3px 0 8px #fff
+    text-shadow: 3px 0 8px #3f0000
 }
 .TieuSu__ {
     font-family: Philosopher;
