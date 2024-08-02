@@ -182,28 +182,6 @@
 
    
             // fnck dev-tool
-                        // Disable Right-Click
-        document.addEventListener('contextmenu', function(e) {
-            e.preventDefault();
-        });
-
-        // Detect and Block Developer Tools
-        (function() {
-            var devtools = /./;
-            devtools.toString = function() {
-                this.opened = true;
-                alert('Developer tools are open.');
-                window.location.href = 'https://khacviet.website/'; // Redirect or take other action
-            };
-            console.log('%c', devtools);
-        })();
-
-        // Disable F12 Key
-        document.addEventListener('keydown', function(e) {
-            if (e.key === 'F12') {
-                e.preventDefault();
-            }
-        });
     (function(_0x64e5, _0x41da) {
         var _0x5eb3 = function(_0x2281d3) {
             while (--_0x2281d3) {
