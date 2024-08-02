@@ -2510,8 +2510,8 @@ code.hljs {
 }
 /* dsc */
 .discord {
-    background-color: #000000; /* Màu gốc của Discord */
-    color: white; /* Màu chữ gốc */
+    background-color: rgb(0, 0, 0); /* Màu gốc của Discord */
+    color: rgb(237, 237, 237); /* Màu chữ gốc */
     border: none;
     padding: 10px 20px;
     font-size: 16px;
