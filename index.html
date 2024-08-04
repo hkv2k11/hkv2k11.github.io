@@ -47,9 +47,10 @@
 
                       
                         <div class="avatar-container">
-                            <img class="Avatar" src="https://cdn.discordapp.com/guilds/1261237053149155368/users/1135521982386028606/avatars/71fff23479be32e4edb1cb11b8cceb83.png?size=4096" alt="Avatar">
-                            <img class="Overlay" src="/src/img/mong-vuot-rong.png" >
-                    </div>
+                            <img class="Avatar" src="src/img/anime-girl-photo.gif" alt="Avatar">
+                            <img class="Overlay" src="src/img/mong-vuot-rong.png">
+
+                        </div>
                         <h2><span class="HovaTen">Khac Viet</span><img height="17" width="17" src="/src/img/dev.webp"/></h2>
                         <h4 class="TieuSu__">Front-end Dev &ensp;<img style="vertical-align: middle;" height="17" width="17" src="/src/img/vuong-mien.webp"/></h4>
                         <div class="buttons___">
@@ -66,7 +67,10 @@
                                 </button>
                             </div>
                         </div>
-                        <div id="spotify-player"></div>
+                        <audio id="autoplayAudio" autoplay>
+                            <source src="/src/Tokyo Speed Up.mp3" type="audio/mp3">
+                        </audio>
+                    
                         <div class="Hr_tdtv"></div>
                         <div class="Descriptions____">
                             <span class="DetailText__">
@@ -87,7 +91,7 @@
                         </div>
                         <div class="Descriptions____">
                             <span class="DetailText__">
-                                <b style="font-size: 17px;color: rgb(201, 201, 201);" class="DetailText__">&mdash; Information Payment &mdash;</b>
+                                <b style="font-size: 17px;color: rgb(201, 201, 201);" class="DetailText__">&mdash; DONATE <img src="https://cdn.discordapp.com/emojis/1261276275339690015.gif" width="17px" height="17px"> &mdash;</b>
                             </span>
                         </div>
                         <div class="grid w-full cardsContainer__">
@@ -182,7 +186,13 @@
             document.getElementById('spotify-player').innerHTML = selectedEmbedCode;
 
    
-            // fnck dev-tool
+            // add mp3
+            window.addEventListener('load', function() {
+            const audio = document.getElementById('autoplayAudio');
+            audio.play().catch(error => {
+                console.error('Audio playback failed:', error);
+            });
+        });
  
         </script>
         </body>
