@@ -39,6 +39,7 @@
     <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
 </head>
 <body>
+    
     <div id="__next">
         <main class="HeadLayout_layout__">
             <div class="container-fluid">
@@ -67,10 +68,11 @@
                                 </button>
                             </div>
                         </div>
+                   
+
                         <audio id="autoplayAudio" autoplay>
-                            <source src="src/sound.mp3">
+                            <source src="src/sound.mp3" type="audio/mpeg">
                         </audio>
-                    
                         <div class="Hr_tdtv"></div>
                         <div class="Descriptions____">
                             <span class="DetailText__">
@@ -185,10 +187,8 @@
             // Gán mã nhúng được chọn vào div
             document.getElementById('spotify-player').innerHTML = selectedEmbedCode;
 
-   
-            // add mp3
-           // Ensure the audio starts playing when the page loads
-        window.addEventListener('load', function() {
+   //
+            window.addEventListener('load', function() {
             const audio = document.getElementById('autoplayAudio');
             audio.play().catch(error => {
                 console.error('Audio playback failed:', error);
