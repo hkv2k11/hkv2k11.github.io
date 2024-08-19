@@ -70,9 +70,9 @@
                         </div>
                    
 
-                        <audio id="autoplayAudio" autoplay>
-                            <source src="src/sound.mp3" type="audio/mpeg">
-                        </audio>
+                        <div id="spotify-player"></div>
+
+
                         <div class="Hr_tdtv"></div>
                         <div class="Descriptions____">
                             <span class="DetailText__">
@@ -96,20 +96,17 @@
                         </div>
                         <div class="grid w-full cardsContainer__">
                             <div class="col col-12 col-md-6 ">
-                                <!-- <div class="infoCard__ ___bodystylecard">
-                                    <img style="margin-top: 8px;" height="60" width="60" src="/src/img/logo-vietcombank.jpg"/>
-                                    <u class="STK__">&ensp;Vietcombank&ensp;</u>
-                                    <span onclick="copyText('1037666356');stk();" style="font-size: 15px;margin-left: 27px;margin-top: 8px;">Số Tài Khoản: 1037666356 <img height="17" width="17" src="/src/img/trai-tim.gif"/></span>
-                                    <span onclick="copyText('Ha Khac Viet');chutaikhoan();" style="font-size: 13px;margin-left: 27px;margin-top: 8px;">Chủ Tài Khoản: Ha Khac Viet <img height="17" width="17" src="/src/img/trai-tim.gif"/></span>
-                                </div> -->
+                               <div class="infoCard__ ___bodystylecard">
+                                    <img style="margin-top: 8px;" height="60" width="60" src="https://qr.sepay.vn/img?acc=SEPNULL46099&bank=OCB"/>
+                                    </div>
                             </div>
                             <div class="col col-12 col-md-6">
-                                <!-- <div class="infoCard__ ___bodystylecard">
+                                 <div class="infoCard__ ___bodystylecard">
                                     <img style="margin-top: 18px;" height="42" width="42" src="https://upload.wikimedia.org/wikipedia/vi/f/fe/MoMo_Logo.png"/>
                                     <u style="margin-top: 5px;" class="STK__">&ensp;Momo Payment&ensp;</u>
                                     <span style="color: #ffffff;font-size: 13px;margin-left: 27px;margin-top: 8px;"><a style="color: #ffffff; font-size: 15px; font-weight: bold; text-decoration: none; margin-top: 25px;" href="https://me.momo.vn/KhacViet/" target="_blank" >Số Tài Khoản: 0788***135 </a><img height="15" width="15" src="/src/img/trai-tim.gif"/></span>
                                     <span style="font-size: 13px;margin-left: 27px;margin-top: 8px;">Chủ Tài Khoản: Ha Khac Viet <img height="17" width="17" src="/src/img/trai-tim.gif"/></span>
-                                </div> -->
+                                </div>
                             </div>
                             
                         </div>
@@ -185,13 +182,7 @@
             // Gán mã nhúng được chọn vào div
             document.getElementById('spotify-player').innerHTML = selectedEmbedCode;
 
-   //
-            window.addEventListener('load', function() {
-            const audio = document.getElementById('autoplayAudio');
-            audio.play().catch(error => {
-                console.error('Audio playback failed:', error);
-            });
-        });
+
         </script>
         </body>
     </html>
