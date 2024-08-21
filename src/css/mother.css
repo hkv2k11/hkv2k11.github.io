@@ -652,3 +652,66 @@ a.btn.disabled,fieldset:disabled a.btn {
 .Footer__ {
     color: #fff
 }
+/* card galaxy */
+/* .___bodystylecard1 {
+    text-align: center;
+    padding: 10px;
+    border-style: double;
+    border-radius: 20px;
+    border-width: 1px;
+    background: linear-gradient(45deg, #ff00cc, #333399, #00ccff, #ff6699);
+    background-size: 300% 300%;
+    animation: galaxyEffect 10s ease infinite;
+    color: #fff;
+}
+
+@keyframes galaxyEffect {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+.infoCard1__ {
+    margin-left: 60px;
+    text-align: center;
+    box-shadow: 0 0 3px #6656c4;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: #060818;
+    border-radius: 15px;
+    width: 80%;
+    height: 190px;
+    color: #bfc9d4;
+    padding-left: 8px;
+    padding-right: 8px;
+    margin-top: 15px;
+}
+
+@media screen and (max-width: 789px) {
+    .infoCard1__ {
+        margin-left: 0px;
+        width: 100%;
+    }
+}
+
+.BankMethod {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.2;
+    margin: 12px 0;
+}
+
+.infoCard1__ {
+    color: #fff;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 700;
+/* } 
+/*dit me deo chay nhung de o style html no lai chay */ 
